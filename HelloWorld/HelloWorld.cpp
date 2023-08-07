@@ -8,9 +8,7 @@ int main() {
 	int choice;
 	int second;
 	double square;
-	double root;
-	float realpart = 0.0;
-	
+	double root;	
 
 	std::cout << "Hello, welcome to the calculator! \n"; 
 	std::cout << "Please enter the first number: \n";
@@ -63,8 +61,6 @@ int main() {
 
 		std::cout << "\nYou chose square.\n";
 
-		// We multiply the number by 2 because we want to square it
-
 		square = sum * sum;
 
 			std::cout << "This is the squared number: " << square;
@@ -74,7 +70,6 @@ int main() {
 
 		std::cout << "\nYou chose square root. \n";
 
-		// We devide the number by 2 because we want to get the square root of it
 		root = sqrt(sum);
 
 		std::cout << "This is the square root of the number: " << root;
